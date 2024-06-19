@@ -1,3 +1,4 @@
+//complete this code
 class Rectangle {
     constructor(width, height) {
         this._width = width;
@@ -26,3 +27,7 @@ class Square extends Rectangle {
         return 4 * this._width;
     }
 }
+
+// Do not change the code below this line
+window.Rectangle = Rectangle;
+window.Square = Square;
